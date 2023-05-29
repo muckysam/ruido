@@ -59,7 +59,7 @@ basic.forever(function () {
         basic.showString("voces")
         basic.showNumber(voces)
         basic.pause(1000)
-        if (voces == 2) {
+        if (voces == 5) {
             basic.clearScreen()
             for (let index = 0; index < 10; index++) {
                 music.playMelody("C5 C5 C5 C C C C C ", 340)
